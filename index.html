@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+
+    <style>
+      .card-img-top-wrapper {
+        width: 100%;
+        height: 225px;
+        overflow: hidden;
+        border-top-left-radius: 0.375rem;
+        border-top-right-radius: 0.375rem;
+      }
+    
+      .realisation-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    </style>
+    
 </head>
 <body class="light">
 
@@ -26,19 +44,14 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-        
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Service</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown03">
-              <li><a class="dropdown-item" href="renovation.html">Rénovation</a></li>
-              <li><a class="dropdown-item"  href="peinture.html">Peinture</a></li>
-              <li><a class="dropdown-item" href="decoration.html">Décoration</a></li>
-              <li><a class="dropdown-item" href="electricite.html">Electricité</a></li>
-              <li><a class="dropdown-item" href="finition.html">Finition</a></li>
-              <li><a class="dropdown-item"   href="plomberie.html">Plomberie</a></li>
-              <li><a class="dropdown-item" href="jardinage.html">Jardinage</a></li>
-              <li><a class="dropdown-item"  href="desin.html">Dessin et modelisation</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="bloc.html">Service Blocs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quincaillerie.html"> Quincaillerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#realisation">Réalisations</a>
@@ -52,8 +65,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#experience">Expériences</a>
           </li>
-          
-          
         </ul>
         
       </div>
@@ -63,192 +74,211 @@
   
   <main class="container" >
     
- <section id="home">
-    <div class="container px-4 py-5" id="featured-3" >
-    <h2 class="pb-2 border-bottom">Bienvenu chez Services Modernes de Construction SM Const en sigle</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="feature col">
-        <img src="img/20230114_104659.jpg" class="bd-placeholder-img rounded-circle img-fluid " width="100%" height="300" alt="">
-      </div>
-      <div class="feature col">
-        <h2>Salut !</h2>
-  <p>Nous sommes un groupe de jeunes professionnelle oeuvrant dans le domaine de la construction 
-   depuis plus des années.Notre expérience reste notre principal atout pour vous 
-   servir au quotidien en tenant compte de la demande de nos clients.</p>
-
-    <a href="contact.html"><button class="btn btn-primary 
-      btn-lg btn-sm" type="button">Nous contacter <img src="img/icons8_telegram_app_32px.png" alt=""></button></a>
-      </div>
-      
-      <div class="feature col">
-        
-  <h3>Envoyez Nous un mail et nous vous repondrons</h3>
-  <img src="img/sam2.jpg" width="100%" height="250px" class="img-fluid" alt=""><br>
-  
-        <a href="mailto:samuelmurotso24@gmail.com" style="text-decoration: none;" > <img src="img/icons8_message_outline_24px.png" width="30" height="30" alt="">samuelmurotso24@gmail.com</a><br>	
-      
-        <a href="#" style="text-decoration: none;"> <img src="img/icons8_location_filled_50px.png" width="30" height="30" alt="" >Butembo,Av mususa,+243993970466 </a>
-      </div>
-    </div>
-  </div>
-</section>
-        
-      
-    <section id="apropos">        
-   <div class="row featurette">
-    <div class="col-md-7 order-md-2">
-      <h2 class="featurette-heading">A propos de nous </h2>
-      <h5>Qui sommes-nous?</h5>
-      <p class="lead">SM Const est un groupe multiservice de construction.Nous oeuvrons dans le 
-        domaine de Rénovation,de peinture,de jardinage,de démolition,de 
-        décoration,d'Eléctricité,de finition,de plomberie et de dessin et modélisation. </p><br>
-
-        <div class="container">
-          
-          <div class="row">
-              <div class="col-4">
-                <h5>12+</h5>
-              <span>Mois</span> 
-              <span>d'expérience</span>
-                
-              </div>
-              <div class="col-4">
-                <h5>10+</h5>
-                  <span>Projets</span>
-                  <span>réalisés</span>
-                 
-              </div>
-        
-              <div class="col-4">
-                <h5>3+</h5>
-                  <span>langues </span>
-                  <span>maîtrisées
-                 
-              </div>
+    <section id="home" class="bg-light">
+      <div class="container px-4 py-5">
+        <h2 class="pb-3 text-center text-primary">Fabrication & Vente de Blocs de Construction</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="img/bloc1.jpg" class="rounded img-fluid shadow" alt="Blocs SM Const" style="height: 250px; object-fit: cover;">
+            <p class="text-muted mt-2">Nos blocs sont conçus pour durer</p>
           </div>
-          
+          <div class="col-md-4">
+            <h4 class="text-success">Bienvenue chez <strong>SM Const</strong></h4>
+            <p>Nous sommes spécialisés dans la fabrication artisanale de blocs solides, calibrés, adaptés à tout type de construction.</p>
+            <ul>
+              <li>Blocs ciment 15x20x40, 10x20x40</li>
+              <li>Livraison rapide selon votre localisation</li>
+              <li>Prix compétitifs et dégressifs</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary btn-lg mt-2">Demander un devis</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>Contact rapide</h5>
+            <img src="img/bloc3.jpg" class="img-fluid rounded shadow" alt="Contact SM Const" style="height: 220px; object-fit: cover;"><br><br>
+            <a href="mailto:samuelmurotso24@gmail.com" class="d-block mb-2 text-dark"><i class="bi bi-envelope-fill"></i> samuelmurotso24@gmail.com</a>
+            <a href="https://wa.me/+243975778865" class="d-block mb-2 text-dark"><i class="bi bi-whatsapp"></i> +243 975 778 865</a>
+            <span class="text-muted"><i class="bi bi-geo-alt-fill"></i> Butembo, Av Mususa</span>
+          </div>
         </div>
-        <a href="Doc5.pdf" download="cv de samuel murotso"><button class="btn btn-primary 
-          btn-lg btn-sm" type="button">Mon cv <img src="img/icons8_download_26px_1.png" alt=""></button></a>
-    </div>
-    <div class="col-md-5 order-md-1">
-      <h2 class="featurette-heading">une photo de moi </h2>
-      <img src="img/IMG-20230512-WA0049.jpg" width="100%" height="200px" class="img-fluid" alt="">
-
-    </div>
-  </div> 
-</section><br><br>
-<!-- *******contact********* -->
+      </div>
+    </section>
+    
+    <section id="apropos" class="py-5 bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="img/sm1.jpg" class="img-fluid rounded shadow" alt="Photo de Samuel">
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-primary">À propos de <strong>SM Const</strong></h2>
+            <p class="lead">Nous sommes un groupe multidisciplinaire actif dans le domaine de la construction depuis plusieurs années. Notre équipe réunit des compétences solides en :</p>
+            <ul>
+              <li>Rénovation, peinture, électricité</li>
+              <li>Décoration intérieure & extérieure</li>
+              <li>Plomberie, jardinage, démolition</li>
+              <li>Finition, dessin & modélisation 3D</li>
+            </ul>
+            <div class="row text-center my-4">
+              <div class="col">
+                <h3 class="text-success">12+</h3>
+                <p class="text-muted">mois d'expérience</p>
+              </div>
+              <div class="col">
+                <h3 class="text-success">10+</h3>
+                <p class="text-muted">projets réalisés</p>
+              </div>
+              <div class="col">
+                <h3 class="text-success">3+</h3>
+                <p class="text-muted">langues maîtrisées</p>
+              </div>
+            </div>
+            <a href="Doc5.pdf" class="btn btn-outline-primary" download="CV de Samuel Murotso">
+              <i class="bi bi-download"></i> Télécharger mon CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
   
 <!-- 
 ********competences******** -->
-<section id="competence" >
-  <h1>compétences</h1>
-  <div class="example" >
-   <p class="center">Avez-vous besoin d'expert pour les travaux de rénovation,de peinture,
-    d'installation éléctrique,de plomberie,de décoration,des travaux de finition ou de démolition de mur, travaux d'amenagement,
-    des travaux de Jardinage? Bref, tous ce qui cadre avec la construction.
-   <b>Demander </b> un avis sans attendre chez SM Const.
-   </p>
-   <a href="http://wa.me/+243975778865"><button class="btn btn-primary 
-    btn-lg btn-md" type="button">Demander un devis GRATUIT </button></a>
-   
-  </div>
-  <!-- *****dif competences****** -->
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-    <a href="peinture.html" style="text-decoration: none; color: black;"> <div class="col d-flex align-items-start">
-      <img src="img/icons8_construction_trowel_48px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid ">
-      <div>
-        <h4 class="fw-bold mb-0">Peinture</h4>
-        <p>Demandez une estimation de peinture intérieur et extérieur de votre maison.</p>
+<section id="competence" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center text-primary mb-4">Nos compétences clés</h2>
+    <p class="lead text-center mb-4">
+      Besoin d’un expert pour vos travaux de rénovation, peinture, électricité, plomberie, décoration, finition, jardinage ou démolition ?<br>
+      <strong>SM Const</strong> est là pour vous accompagner avec expertise.
+    </p>
+    <div class="text-center mb-4">
+      <a href="http://wa.me/+243975778865" class="btn btn-outline-primary btn-lg">
+        <i class="bi bi-whatsapp"></i> Demander un devis GRATUIT
+      </a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <!-- Compétence -->
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_construction_trowel_48px.png" class="mb-3" alt="Peinture">
+              <h5 class="card-title">Peinture</h5>
+              <p class="card-text">Estimation de peinture intérieure et extérieure pour tout type de maison.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="decoration.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_construction_worker_24px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid " >
-      <div>
-        <h4 class="fw-bold mb-0">Décoration</h4>
-        <p>Nous vous proposons la décoration de l'intérieur,murale,salon et chambre.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_construction_worker_24px.png" class="mb-3" alt="Décoration">
+              <h5 class="card-title">Décoration</h5>
+              <p class="card-text">Décoration intérieure, murale, salon et chambre sur mesure.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="electricite.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_electrical_26px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid "  >
-      <div>
-        <h4 class="fw-bold mb-0">Electicité</h4>
-        <p>Nous mettons votre électricité aux normes pour plus d'économie.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_electrical_26px.png" class="mb-3" alt="Électricité">
+              <h5 class="card-title">Électricité</h5>
+              <p class="card-text">Mise aux normes électriques pour plus de sécurité et d’économies.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="plomberie.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_water_pipe_64px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid "  >
-      <div>
-        <h4 class="fw-bold mb-0">Plomberie</h4>
-        <p>Fuite,Robinet? Nous intervenons pour un dépannage,l'installation et la réparation.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_water_pipe_64px.png" class="mb-3" alt="Plomberie">
+              <h5 class="card-title">Plomberie</h5>
+              <p class="card-text">Dépannage, installation et réparation de systèmes sanitaires.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="renovation.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_home_32px_1.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid " >
-      <div>
-        <h4 class="fw-bold mb-0">Rénovation</h4>
-        <p>Recevez votre devis de rénovation de nos entrepreneurs et experts.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_home_32px_1.png" class="mb-3" alt="Rénovation">
+              <h5 class="card-title">Rénovation</h5>
+              <p class="card-text">Modernisation complète ou partielle de vos espaces de vie.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="finition.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_hammer_26px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid " >
-      <div>
-        <h4 class="fw-bold mb-0">Finition</h4>
-        <p>Faites appels à nos techniciens pour achever votre construction.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_hammer_26px.png" class="mb-3" alt="Finition">
+              <h5 class="card-title">Finition</h5>
+              <p class="card-text">Travaux de finition pour achever vos chantiers avec précision.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="jardinage.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_french_canadian_fleur-de-lys_32px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid " >
-      <div>
-        <h4 class="fw-bold mb-0">Jardinage</h4>
-        <p>Faites appel à nos techniciens pour ameliorer votre jardin.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_french_canadian_fleur-de-lys_32px.png" class="mb-3" alt="Jardinage">
+              <h5 class="card-title">Jardinage</h5>
+              <p class="card-text">Aménagement et entretien professionnel de vos espaces verts.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
-    <a href="demolition.html" style="text-decoration: none; color: black;"><div class="col d-flex align-items-start">
-      <img src="img/icons8_brick_wall_40px.png" alt=""  class="bd-placeholder-img rounded-circle img-fluid " >
-      <div>
-        <h4 class="fw-bold mb-0">Démolition</h4>
-        <p>Obtenez un devis de demolition totale ou partielle d'une construction.</p>
+      <div class="col">
+        <a href="#" class="text-decoration-none text-dark">
+          <div class="card h-100 text-center shadow-sm">
+            <div class="card-body">
+              <img src="img/icons8_brick_wall_40px.png" class="mb-3" alt="Démolition">
+              <h5 class="card-title">Démolition</h5>
+              <p class="card-text">Démolition partielle ou complète de structures anciennes.</p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div></a>
+    </div>
   </div>
 </section>
+
 <!-- *******expérience******* -->
-
-<section id="experience">
-
+<section id="experience" class="py-5 bg-white">
   <div class="container">
-    <h1 class="text-center">Expériences</h1>
-    <h3 class="text-center"> expérience professionnelle & scolaire</h3>
+    <h2 class="text-center text-primary mb-4">Notre Expérience</h2>
+    <p class="text-center mb-5">Une expertise issue de notre formation et des projets réalisés avec passion.</p>
+
     <div class="row">
-        <div class="col-6">
-          <p><h6 class="text-primary">Scolaire <img src="img/icons8_motarboard_30px.png" alt=""></h6></p>
-          <p style="width:100%; height:auto"><b>Etudes secondaire</b></p>
-           <small class="text-muted">2009-2015</small><br>
-           <p style="width:100%; height:auto"><b> Premier cycle universitaire:</b></p>
-          <p>en bâtiment et travaux publics</p> 
-           <small class="text-muted">2016-2020</small><br>
-           <p style="width:100%; height:auto"><b>Second cycle universitaire:</b> </p>
-           <p>en ponts et chaussés</p> 
-           <small class="text-muted">2020-2022</small>
-          
-        </div>
-        <div class="col-6">
-          <p><h6 >Professionnel <img src="img/icons8_businessman_30px.png" alt=""></h6></p>
-          <p style="width:100%; height:auto">conception et réalisation du projet de construction de l'auberge de kitsuku.</p><br>
-          <p style="width:100%; height:auto">conception et réalisation du projet de construction d'une tribune public au stade de kitsuku.</p><br>
-          <p style="width:100%; height:auto">conception et réalisation du projet de construction d'une tribune public au stade de luotu.</p>
-           
-        </div>
+      <div class="col-md-6 mb-4">
+        <h4 class="text-success"><img src="img/icons8_motarboard_30px.png" alt=""> Parcours scolaire</h4>
+        <ul class="list-unstyled">
+          <li><strong>Études secondaires :</strong> 2009 – 2015</li>
+          <li><strong>Cycle universitaire 1 :</strong> BTP (2016 – 2020)</li>
+          <li><strong>Cycle universitaire 2 :</strong> Ponts & Chaussées (2020 – 2022)</li>
+        </ul>
+      </div>
+
+      <div class="col-md-6">
+        <h4 class="text-success"><img src="img/icons8_businessman_30px.png" alt=""> Réalisations professionnelles</h4>
+        <ul class="list-unstyled">
+          <li>Conception et construction de l'auberge de Kitsuku</li>
+          <li>Tribune publique au stade de Kitsuku</li>
+          <li>Tribune publique au stade de Luotu</li>
+          <li>Construction d’une ecole de récupération pour les enfants vulnérables de l’ITUri</li>
+        </ul>
+      </div>
     </div>
-    
   </div>
+</section>
 
-
-  </div>
-  </div>
-</section><br>
   
 
 <!-- ********realisations********** -->
@@ -261,10 +291,11 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_103238.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/pro1.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
-            <p class="card-text">Il s'agit de la construction d'une tribune Publique au stade de Kitsuku.</p>
+            <p class="card-text">Construction d’une ecole de récupération pour les enfants vulnérables de l’ITURI.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-primary bi bi-telephone-forward"><a href="http://wa.me/+243975778865" style="text-decoration: none;"> Me contacter</a> </button>
@@ -277,10 +308,11 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_103622.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/bloc2.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
-            <p class="card-text">Conception et Construction d'une maison d'habitation avec des matériaux locaux.</p>
+            <p class="card-text">Fabrication et Vente des blocs de qualité.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-primary bi bi-telephone-forward"><a href="http://wa.me/+243975778865" style="text-decoration: none;"> Me contacter</a> </button>
@@ -293,8 +325,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_103948.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_103948.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -310,8 +343,9 @@
 
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104457.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104457.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle à toiture cachée.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -326,8 +360,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104530.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104530.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle à toiture cachée.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -342,8 +377,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104558.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104558.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison d'habitation en rez-de-chaussée.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -359,8 +395,9 @@
 
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104636.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104636.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison d'habitation R+1 avec des metériaux purement Locaux.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -375,8 +412,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104722.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104722.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Modélisation de vos projets de construction en BTP ou en architecture.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -391,8 +429,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104745.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104745.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Avant projets de construction d'une maison d'habitation R+1 en toiture cachée.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -407,8 +446,26 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104808.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_103238.jpg" class="realisation-img" alt="">
+          </div>
+          <div class="card-body">
+            <p class="card-text">Il s'agit de la construction d'une tribune Publique au stade de Kitsuku.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary bi bi-telephone-forward"><a href="http://wa.me/+243975778865" style="text-decoration: none;"> Me contacter</a> </button>
+                
+              </div>
+              <small class="text-muted">SM Const</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col ">
+        <div class="card shadow-sm">
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104924.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -423,24 +480,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104924.jpg" width="100%" height="225" class="img-fluid" alt="">
-
-          <div class="card-body">
-            <p class="card-text">Conception et Construction d'une maison induviduelle.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-primary bi bi-telephone-forward"><a href="http://wa.me/+243975778865" style="text-decoration: none;"> Me contacter</a> </button>
-                
-              </div>
-              <small class="text-muted">SM Const</small>
-            </div>
+          <div class="card-img-top-wrapper">
+            <img src="img/s1.jpg" class="realisation-img" alt="">
           </div>
-        </div>
-      </div>
-      <div class="col ">
-        <div class="card shadow-sm">
-         <img src="img/s1.jpg" width="100%" height="225" class="img-fluid" alt="">
-
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle et et une terrasse bien maçonner.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -455,8 +497,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/s2.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/s2.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle et et une terrasse bien maçonner.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -471,8 +514,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/s3.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/s3.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle et et une terrasse bien maçonner.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -487,8 +531,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/s4.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/s4.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle et et une terrasse bien maçonner.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -503,8 +548,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/s5.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/s5.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle et et une terrasse bien maçonner.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -519,8 +565,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/s6.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/s6.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'un hoberge à kitsuku.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -535,8 +582,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/sm2.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/sm2.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une maison induviduelle et et une terrasse bien maçonner.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -551,8 +599,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/20230114_104420.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_104420.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">Conception et Construction d'une tribune de football.</p>
             <div class="d-flex justify-content-between align-items-center">
@@ -567,10 +616,11 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/IMG-20230512-WA0046.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/20230114_103622.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
-            <p class="card-text">Conception et Construction des toilettes modernes à une institution secondaire.</p>
+            <p class="card-text">Conception et Construction d'une maison d'habitation avec des matériaux locaux.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-primary bi bi-telephone-forward"><a href="http://wa.me/+243975778865" style="text-decoration: none;"> Me contacter</a> </button>
@@ -583,8 +633,9 @@
       </div>
       <div class="col ">
         <div class="card shadow-sm">
-         <img src="img/IMG-20230512-WA0055.jpg" width="100%" height="225" class="img-fluid" alt="">
-
+          <div class="card-img-top-wrapper">
+            <img src="img/IMG-20230512-WA0055.jpg" class="realisation-img" alt="">
+          </div>
           <div class="card-body">
             <p class="card-text">SM Const a une quincaillerie contenant tous les matériaux de construction dont vous pouvez avoir besoin.</p>
             <div class="d-flex justify-content-between align-items-center">

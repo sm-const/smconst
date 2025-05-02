@@ -1,118 +1,86 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="style.css">
-      <style>
-       body{
-        overflow-x: hidden;
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez SM Const</title>
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            overflow-x: hidden;
+            background-color: #f8f9fa;
         }
-      </style>
-    </head>
-    
-    <body>
-        <nav class="navbar navbar-expand-sm navbar-dark foter mb-2" aria-label="Third navbar example">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/20230114_104659.jpg" style="width: 85px; height: 85px; border-radius: 50%;" class="img-fluid col-lg-2" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse justify-content-end" id="navbarsExample03">
-                <ul class="navbar-nav  mb-2 mb-sm-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="renovation.html">Rénovation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="peinture.html">Peinture</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="decoration.html">Décoration</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="electricite.html">Electricité</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="finition.html">Finition</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="plomberie.html">Plomberie</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="jardinage.html">Jardinage</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="desin.html">Dessin et modelisation</a>
-                </li>
-                
-                </ul>
-                
-            </div>
-            </div>
-        </nav>
-        <div class="row">
-        <div class="col-2"></div>
+        .form-section {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        .form-section h4 {
+            color: #0d6efd;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
 
-        <div class="col-10 mb-2">
-        <div class="col-lg-7 border border-primary p-3 rounded mt-5">
-        <h4 class="text-center"><b>Formulaire de contact</b></h4>
-        <form action="https://formspree.io/f/meqwbkwv" method="POST">
-        
-            <div class=" ">
-                <label for="" class="form-label">Nom</label>
-                <input type="text" name="nom"
-                class="form-control" required  id=""  placeholder="entrer votre nom">
-                </div>
-                <div class=" ">
-                    <label for="" class="form-label">Objet de votre message</label>
-                    <input type="text" name="objet"
-                    class="form-control" required  id=""  placeholder="entrer l'objet du message">
-                    </div>
-                    <div class=" ">
-                        <label for="" class="form-label">Message</label>
-                        <textarea class="form-control" name="message" id="" cols="15" rows="8" required  placeholder="entrer l'objet du message"></textarea>
-                        </div>
-            
-        <div class="">
-        <button type="submit" name="submit"class="btn btn-primary btn-lg mt-4 text-center">Envoyez</button>
-    </div>
-            
-        
-        
-            
-        
-        </form>
-        </div>
-        </div> 
-        <div class="col-2"></div>
-        </div>
-        <footer class=" pt-5 text-muted text-center text-small foter" >
-            <!-- <button class="bi bi-moon-stars " id="theme-btn"  >  </button> -->
-            <p class="mb-1">&copy;  SM Const company</p>
-          
-            
-              <ul class="list-inline">
-                <li class="nav-item  btn but"><a href="tel:+243993970466" class="nav-link px-2 text-dark bi bi-telephone-inbound"></a></li>
-                <li class="nav-item btn but"><a href="mailto:samuelmurotso24@gmail.com" class="nav-link px-2 text-dark   bi bi-envelope"></a></li>
-                <li class="nav-item btn but"><a href="https://www.facebook.com/profile.php?id=100063984192018" 
-                  class="nav-link px-2 text-dark  bi bi-facebook"></a></li>
-                <li class="nav-item btn but"><a href="http://wa.me/+243975778865" 
-                  class="nav-link px-2 text-dark  bi bi-whatsapp"></a></li>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark foter mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/20230114_104659.jpg" style="width: 65px; height: 65px; border-radius: 50%;" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExample03">
+            <ul class="navbar-nav mb-2 mb-sm-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link active" href="quincaillerie.html">Quincaillerie</a></li>
+                <li class="nav-item"><a class="nav-link" href="bloc.html">service Blocs</a></li>
                 
-              </ul>
-            
-            &copy;Designed with love for you
-            
-          </footer>
-          <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-    </html>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 form-section">
+            <h4 class="text-center"><b>Formulaire de contact</b></h4>
+            <form action="https://formspree.io/f/meqwbkwv" method="POST">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" name="nom" class="form-control" id="nom" placeholder="Entrez votre nom" required>
+                </div>
+                <div class="mb-3">
+                    <label for="objet" class="form-label">Objet du message</label>
+                    <input type="text" name="objet" class="form-control" id="objet" placeholder="Objet du message" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="6" placeholder="Tapez votre message ici..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg mt-3">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="pt-5 text-muted text-center text-small foter">
+    <p class="mb-1">&copy; SM Const Company</p>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="tel:+243993970466" class="text-dark bi bi-telephone-inbound"></a></li>
+        <li class="list-inline-item"><a href="mailto:samuelmurotso24@gmail.com" class="text-dark bi bi-envelope"></a></li>
+        <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100063984192018" class="text-dark bi bi-facebook"></a></li>
+        <li class="list-inline-item"><a href="http://wa.me/+243975778865" class="text-dark bi bi-whatsapp"></a></li>
+    </ul>
+    <small>&copy; Designed with love for you</small>
+</footer>
+
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

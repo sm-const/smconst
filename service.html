@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nos Services - SM Const</title>
+  <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      overflow-x: hidden;
+    }
+    .service-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      height: 100%;
+    }
+    .background {
+        background: #9A4404;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    .service-icon {
+      font-size: 40px;
+      color: #0d6efd;
+      margin-bottom: 15px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 40px;
+      color: #0d6efd;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark foter">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/20230114_104659.jpg" style="width: 60px; height: 60px; border-radius: 50%;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link active" href="quincaillerie.html">Quincaillerie</a></li>
+                <li class="nav-item"><a class="nav-link" href="bloc.html">service Blocs</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="container">
+    <h1 class="text-center section-title">Nos Services</h1>
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-brush service-icon"></i>
+          <h5>Peinture</h5>
+          <p>Demandez une estimation de peinture intérieure et extérieure de votre maison.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-palette service-icon"></i>
+          <h5>Décoration</h5>
+          <p>Nous vous proposons la décoration d'intérieur, murale, salon et chambre.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-lightning-charge service-icon"></i>
+          <h5>Électricité</h5>
+          <p>Nous mettons votre électricité aux normes pour plus d'économie et de sécurité.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-droplet-half service-icon"></i>
+          <h5>Plomberie</h5>
+          <p>Fuite ? Robinet cassé ? Nous assurons dépannage, installation et réparation.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-hammer service-icon"></i>
+          <h5>Rénovation</h5>
+          <p>Recevez un devis personnalisé de rénovation avec nos experts en bâtiment.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-tools service-icon"></i>
+          <h5>Finition</h5>
+          <p>Faites appel à nos techniciens pour achever vos travaux de construction avec soin.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-flower1 service-icon"></i>
+          <h5>Jardinage</h5>
+          <p>Besoin d'embellir votre jardin ? Nos équipes sont prêtes à intervenir.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <i class="bi bi-exclamation-octagon service-icon"></i>
+          <h5>Démolition</h5>
+          <p>Obtenez un devis pour une démolition totale ou partielle en toute sécurité.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="autre">
+    <a class="text-muted " href="https://smconstructionbbo.mystrikingly.com"><img src="img/20230114_104659.jpg" class="img-fluid"  alt=""></a>
+  </div>
+  <footer class="text-center text-muted mt-5 py-4 bg-light">
+    <p class="mb-1">&copy; 2025 SM Const</p>
+    <p>Designed with ❤️ in Butembo</p>
+  </footer>
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
